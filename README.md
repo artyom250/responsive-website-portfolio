@@ -1,4 +1,4 @@
-![Example Image](./public/final.png)
+![Example Image](./final.png)
 
 ## 🔥 Responsive Portfolio Website
 
