@@ -1,0 +1,142 @@
+.info {
+    margin-top: 50px;
+}
+
+.info.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info-block {
+    position: relative;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.info-block.tool {
+    padding: 15px;
+}
+
+.info-block i {
+    position: absolute;
+    color: rgb(244, 108, 56);
+    top: 0%;
+    right: 0%;
+    margin: 25px;
+    font-size: 24px;
+}
+
+.info a:hover .info-block {
+    background-color: rgb(28, 26, 25);
+}
+
+.block-title {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    max-width: 480px;
+    line-height: 1.3em;
+}
+
+.block-desc {
+    max-width: 420px;
+    margin: 10px 0px 30px 0px;
+}
+
+.block-desc, .block-date {
+    color: rgb(153, 143, 143);
+    font-weight: 500;
+}
+
+.project-flex {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.project-flex img {
+    width: 110px;
+    border-radius: 10px;
+}
+
+.project-flex.tools img {
+    width: 40px;
+}
+
+.project-flex .block-desc {
+    margin: 10px 0px 0px 0px ;
+}
+
+.thoughts-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-title.tool-t {
+    font-size: 18px;
+}
+
+.block-desc.tool-d {
+    font-size: 12px;
+    margin: 2px 0px 0px 0px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+form p {
+    color: rgb(153, 143, 143);
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+form input, 
+form textarea, 
+form button {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14.5px;
+    font-weight: 500;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: rgb(244, 108, 56);
+    cursor: pointer;
+}
+
+form textarea {
+    height: 200px;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+}
+
+form div:nth-child(3), 
+form div:nth-child(4), 
+form button {
+    grid-column: span 2;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 80px 0px;
+}
+
+footer span {
+    color: rgb(153, 143, 143);
+    font-weight: 500;
+}
